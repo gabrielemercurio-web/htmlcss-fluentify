@@ -184,21 +184,21 @@ body {
     float: left;
     width: 33.33%;
     text-align: center;
-    padding: 0px 20px;
+    padding: 0px 25px;
 }
 
 .step-2 {
     float: left;
     width: 33.33%;
     text-align: center;
-    padding: 0px 20px;
+    padding: 0px 25px;
 }
 
 .step-3 {
     float: left;
     width: 33.33%;
     text-align: center;
-    padding: 0px 20px;
+    padding: 0px 25px;
 }
 
 .step-1 img {
@@ -214,12 +214,24 @@ body {
 }
 
 .text-icon {
+    /* background-color: red; */
+}
+
+.text-icon::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.text-icon {
     padding-top: 50px;
 }
 
 .text-icon h2 {
+    /* background-color: #ccc; */
+    height: 60px;
     color: #7fb802;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     /* margin-bottom: 40px; */
 }
@@ -235,6 +247,52 @@ body {
 .text-icon p {
     font-weight: 300;
     color: #999;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 28px;
+}
+
+hr {
+    margin: auto;
+    opacity: 0.4;
+    width: 98%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.livello-img {
+    float: left;
+    width: 50%;
+}
+
+.livello-img img {
+    width: 400px;
+}
+
+.livello-testo {
+    float: right;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.livello-testo h2 {
+    /* width: 500px; */
+    font-size: 30px;
+    font-weight: 500;
+    color: #4a4a4a;
+    line-height: 45px;
+}
+
+.livello-testo p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+    line-height: 21px;
+    color: #999;
+}
+
+.livello-testo a {
+    display: block;
+    margin-top: 20px;
+    color: #98c8f8;
+    text-decoration: underline;
 }
