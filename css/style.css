@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    width: 1100px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -161,10 +161,20 @@ body {
 
 .programma {
     /* background-color: red; */
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .programma::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.icone {
+    /* background-color: red; */
+}
+
+.icone::after {
     content: '';
     display: table;
     clear: both;
@@ -174,33 +184,57 @@ body {
     float: left;
     width: 33.33%;
     text-align: center;
+    padding: 0px 20px;
 }
 
 .step-2 {
     float: left;
     width: 33.33%;
     text-align: center;
-    padding-top: 10px;
+    padding: 0px 20px;
 }
 
 .step-3 {
     float: left;
     width: 33.33%;
     text-align: center;
-    padding: 10px;
+    padding: 0px 20px;
 }
 
 .step-1 img {
     width: 130px;
-    margin-bottom: 60px;
 }
 
 .step-2 img {
     width: 200px;
-    margin-bottom: 60px;
 }
 
 .step-3 img {
     width: 150px;
-    margin-bottom: 60px;
+}
+
+.text-icon {
+    padding-top: 50px;
+}
+
+.text-icon h2 {
+    color: #7fb802;
+    font-size: 24px;
+    font-weight: 400;
+    /* margin-bottom: 40px; */
+}
+
+.text-icon hr {
+    opacity: 0.4;
+    width: 32px;
+    border-top: 2px solid;
+    display: inline-block;
+    margin: 40px 0px 10px;
+}
+
+.text-icon p {
+    font-weight: 300;
+    color: #999;
+    font-size: 16px;
+    line-height: 28px;
 }
