@@ -145,7 +145,7 @@ body {
     text-align: center;
 }
 
-.quote h2 {
+.quote h3 {
     color: #222;
     font-size: 26px;
     font-weight: 300;
@@ -157,4 +157,50 @@ body {
     color: #999;
     font-size: 18px;
     font-weight: 400;
+}
+
+.programma {
+    /* background-color: red; */
+    margin-top: 40px;
+}
+
+.programma::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.step-1 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.step-2 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.step-3 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 10px;
+}
+
+.step-1 img {
+    width: 130px;
+    margin-bottom: 60px;
+}
+
+.step-2 img {
+    width: 200px;
+    margin-bottom: 60px;
+}
+
+.step-3 img {
+    width: 150px;
+    margin-bottom: 60px;
 }
