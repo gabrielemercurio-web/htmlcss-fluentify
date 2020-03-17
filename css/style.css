@@ -131,3 +131,30 @@ body {
 .header-bottom .container {
     padding: 90px 0px;
 }
+
+.section-quote {
+    height: 150px;
+    background: rgb(245, 245, 245);
+}
+
+.quote {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.quote h2 {
+    color: #222;
+    font-size: 26px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.quote p {
+    color: #999;
+    font-size: 18px;
+    font-weight: 400;
+}
